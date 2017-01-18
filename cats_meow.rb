@@ -10,10 +10,8 @@ class Cat
   def eats_at
     if @meal_time < 12
       return "#{@meal_time} AM"
-      # return @meal_time
     else
       return "#{@meal_time-12} PM"
-      # return (@mealtime-12)
     end
   end
 
