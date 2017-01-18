@@ -17,7 +17,7 @@ class Player
       @lives -= 1
       @health_points = 10
     else
-      return :restart
+      restart
     end
     puts "Ending battle"
     p self
